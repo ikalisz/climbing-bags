@@ -17,11 +17,14 @@ function Auth() {
       username,
       password,
     }
+
+    api.post('/login', user)
+      .then()
   }
 
   return (
     <SContainer>
-      
+      <input type="text" onChange={(e => setUsername(e.target.value))} />
     </SContainer>
   )
 }
