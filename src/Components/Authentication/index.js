@@ -22,6 +22,10 @@ function Auth() {
       .then()
   }
 
+  const signout = () => {
+    return
+  }
+
   return (
     <SContainer>
       <input type="text" onChange={(e => setUsername(e.target.value))} />
